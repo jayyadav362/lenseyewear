@@ -1,0 +1,777 @@
+<html lang="en" >
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Lenseyewear</title>
+    <link rel="icon" type="image/x-icon" href="images/new_logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-light">
+        <div class="container">
+            <a href="" class="navbar-brand text-secondary" style="font-family: 'Brush Script MT', cursive;"><img src="images/new_logo.png" class="img-logo"> Lenseyewear</a>
+            <ul class="navbar-nav ml-auto">
+                <div class="row">
+                    <li class="">
+                        <a class="text-uppercase nav-link text-muted " style="font-family: 'Girassol', cursive; " data-placement="bottom" data-toggle="popover" data-container="body" data-placement="left" type="button" data-html="true" href="#"><i class="fas fa-user fa-lg"></i></a>
+                    </li>
+                    <div id="popover-content" hidden>
+                        <a href="" class=" nav-link ft  text-muted">View Profile</a>
+                        <a href="" class=" nav-link ft text-muted">Edit Profile</a>
+                        <a href="" class=" nav-link ft text-muted">Password</a>
+                        <a href="" class=" nav-link ft text-muted"> logout</a>
+                    </div>
+                    <li class="ml-3">
+                        <a class="text-uppercase nav-link text-muted mr-2" style="font-family: 'Girassol', cursive; " href="#"><i class="fas  fa-shopping-cart fa-lg"></i></a>
+                    </li>
+                </div>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="sticky-top">
+        <!-- responsive nav bar -->
+        <div class="nav-bar ">
+            <div class="form-inline">
+                <a href=""><i class="fa fa-bars click"></i></a>
+                <form action="" class="ml-auto mr-2 ">
+                    <input type="search" class="form-control rounded-0 " placeholder="Search">
+                </form>
+            </div>
+        </div>
+        <!-- navigation -->
+        <nav>
+            <ul>
+                <li><a href="#" class=" nav-link text-light">Home</a></li>
+                <li><a href="#" class=" nav-link text-light">Sunglasses</a></li>
+                <li class="sub-menu">
+                    <a href="#" class="ft-lg nav-link text-light">Spectacles </a>
+                    <!-- children nav -->
+                    <ul class="children">
+                        <li><a href="#" class="nav-link ft">Semi-Rimless</a></li>
+                        <li><a href="#" class="nav-link ft">Full Rim</a></li>
+                        <li><a href="#" class="nav-link ft">Half Rim</a></li>
+                        <li><a href="#" class="nav-link ft">Rimless</a></li>
+                    </ul>
+                </li>
+                <li class="sub-menu"><a href="#" class=" nav-link text-light">Eye glasses </a>
+
+                    <ul class="children">
+                        <li><a href="#" class="nav-link ft">Semi-Rimless</a></li>
+                        <li><a href="#" class="nav-link ft">Full Rim</a></li>
+                        <li><a href="#" class="nav-link ft">Half Rim</a></li>
+                        <li><a href="#" class="nav-link ft">Rimless</a></li>
+                    </ul>
+
+                </li>
+                <li class="sub-menu"><a href="#" class=" nav-link text-light">More</a>
+                    <ul class="children">
+                        <li><a href="#" class="nav-link ft">Semi-Rimless</a></li>
+                        <li><a href="#" class="nav-link ft">Full Rim</a></li>
+                        <li><a href="#" class="nav-link ft">Half Rim</a></li>
+                        <li><a href="#" class="nav-link ft">Rimless</a></li>
+                    </ul>
+                </li>
+                <li class="float-right mt-1 mr-5  hd">
+                    <form action="" class="">
+                        <input type="search" class="form-control rounded-0 small ft" size="50" placeholder="Search">
+                    </form>
+                </li>
+            </ul>
+        </nav> <!-- navigation end -->
+
+    </header>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <a href="" class="nav-link m-0 p-0">
+                    <img class="img-loop w-100 " src="images/main-banner-2-1903x700.jpg" alt="First slide">
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="" class="nav-link m-0 p-0">
+                    <img class="img-loop w-100 " src="images/slide2.jpg" alt="Second slide">
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="" class="nav-link m-0 p-0">
+                    <img class="img-loop w-100 " src="images/main-banner-1-1903x700.jpg" alt="Third slide">
+                </a>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon " aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col-lg-6 mb-2">
+                <div class="card">
+                    <img src="images/p1.jpg" alt="" class="pr-off w-100">
+                    <div class="top-left">
+                        <h4 class="text-danger ft">20% Save</h4>
+                        <h4 class="text-light ft-lg">WOMEN'S GOGGLES</h4>
+                        <a href="" class="btn btn-dark rounded-0 small">SHOP NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6  mb-2">
+                <div class="card">
+                    <img src="images/p2.jpg" alt="" class="pr-off w-100" height="200px">
+                    <div class="top-left">
+                        <h4 class="text-danger ft">30% Save</h4>
+                        <h4 class="text-light ft-lg">MEN'S GOGGLES</h4>
+                        <a href="" class="btn btn-dark rounded-0 small">SHOP NOW</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-2">
+            <div class="col-lg-12 text-center mt-2 mb-3" style=" font-family: 'Alata', sans-serif;"><span class="text-uppercase h4 ">New products</span></div>
+            <div class="col-lg-3 col-6 mb-2">
+                <div class="card">
+
+                    <div class="card-body text-center p-2">
+                        <a href="" class="nav-link m-0 p-0">
+                            <img src="images/pr2.jpg" alt="" class="w-100  pr-h">
+                            <div class="top-right">
+                                <p class="small text-danger ft">10% OFF</p>
+                            </div>
+                        </a>
+                        <center>
+                            <div class="star-ratings ">
+                                <div class="fill-ratings" style="width: 50%;">
+                                    <span>★★★★★</span>
+                                </div>
+                                <div class="empty-ratings">
+                                    <span>★★★★★</span>
+                                </div>
+                            </div>
+                        </center>
+                        <h6 class="ft">Fastrack</h6>
+                        <p class="small ft"> <span class="text-muted mr-2" style="text-decoration: line-through;"><i class="fas fa-rupee-sign text-muted"></i> 2604</span> <i class="fas fa-rupee-sign"></i> 2604</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3  col-6 mb-2">
+                <div class="card">
+
+                    <div class="card-body text-center p-2">
+                        <a href="" class="nav-link m-0 p-0">
+                            <img src="images/pr3.jpg" alt="" class="w-100  pr-h">
+                            <div class="top-right">
+                                <p class="small text-danger ft">18% OFF</p>
+                            </div>
+                        </a>
+                        <center>
+                            <div class="star-ratings ">
+                                <div class="fill-ratings" style="width: 50%;">
+                                    <span>★★★★★</span>
+                                </div>
+                                <div class="empty-ratings">
+                                    <span>★★★★★</span>
+                                </div>
+                            </div>
+                        </center>
+                        <h6 class="ft">Vogue</h6>
+                        <p class="small ft"> <span class="text-muted mr-2" style="text-decoration: line-through;"><i class="fas fa-rupee-sign text-muted"></i> 2604</span> <i class="fas fa-rupee-sign"></i> 2604</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-6 mb-2">
+                <div class="card">
+
+                    <div class="card-body text-center p-2">
+                        <a href="" class="nav-link m-0 p-0">
+                            <img src="images/pr4.jpg" alt="" class="w-100  pr-h">
+                            <div class="top-right">
+                                <p class="small text-danger ft">8% OFF</p>
+                            </div>
+                        </a>
+                        <center>
+                            <div class="star-ratings ">
+                                <div class="fill-ratings" style="width: 50%;">
+                                    <span>★★★★★</span>
+                                </div>
+                                <div class="empty-ratings">
+                                    <span>★★★★★</span>
+                                </div>
+                            </div>
+                        </center>
+                        <h6 class="ft">Vincent Chase</h6>
+                        <p class="small ft"> <span class="text-muted mr-2" style="text-decoration: line-through;"><i class="fas fa-rupee-sign text-muted"></i> 2604</span> <i class="fas fa-rupee-sign"></i> 2604</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-6 mb-2">
+                <div class="card">
+
+                    <div class="card-body text-center p-2">
+                        <a href="" class="nav-link m-0 p-0">
+                            <img src="images/pr1.jpg" alt="" class="w-100  pr-h">
+                            <div class="top-right">
+                                <p class="small text-danger ft">15% OFF</p>
+                            </div>
+                        </a>
+                        <center>
+                            <div class="star-ratings ">
+                                <div class="fill-ratings" style="width: 50%;">
+                                    <span>★★★★★</span>
+                                </div>
+                                <div class="empty-ratings">
+                                    <span>★★★★★</span>
+                                </div>
+                            </div>
+                        </center>
+                        <h6 class="ft">Ray Ban</h6>
+                        <p class="small ft"> <span class="text-muted mr-2" style="text-decoration: line-through;"><i class="fas fa-rupee-sign text-muted"></i> 2604</span> <i class="fas fa-rupee-sign"></i> 2604</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-6 mb-2">
+                <div class="card">
+
+                    <div class="card-body text-center p-2">
+                        <a href="" class="nav-link m-0 p-0">
+                            <img src="images/pr2.jpg" alt="" class="w-100  pr-h">
+                            <div class="top-right">
+                                <p class="small text-danger ft">10% OFF</p>
+                            </div>
+                        </a>
+                        <center>
+                            <div class="star-ratings ">
+                                <div class="fill-ratings" style="width: 50%;">
+                                    <span>★★★★★</span>
+                                </div>
+                                <div class="empty-ratings">
+                                    <span>★★★★★</span>
+                                </div>
+                            </div>
+                        </center>
+                        <h6 class="ft">Fastrack</h6>
+                        <p class="small ft"> <span class="text-muted mr-2" style="text-decoration: line-through;"><i class="fas fa-rupee-sign text-muted"></i> 2604</span> <i class="fas fa-rupee-sign"></i> 2604</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3  col-6 mb-2">
+                <div class="card">
+
+                    <div class="card-body text-center p-2">
+                        <a href="" class="nav-link m-0 p-0">
+                            <img src="images/pr3.jpg" alt="" class="w-100  pr-h">
+                            <div class="top-right">
+                                <p class="small text-danger ft">18% OFF</p>
+                            </div>
+                        </a>
+                        <center>
+                            <div class="star-ratings ">
+                                <div class="fill-ratings" style="width: 50%;">
+                                    <span>★★★★★</span>
+                                </div>
+                                <div class="empty-ratings">
+                                    <span>★★★★★</span>
+                                </div>
+                            </div>
+                        </center>
+                        <h6 class="ft">Vogue</h6>
+                        <p class="small ft"> <span class="text-muted mr-2" style="text-decoration: line-through;"><i class="fas fa-rupee-sign text-muted"></i> 2604</span> <i class="fas fa-rupee-sign"></i> 2604</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-6 mb-2">
+                <div class="card">
+
+                    <div class="card-body text-center p-2">
+                        <a href="" class="nav-link m-0 p-0">
+                            <img src="images/pr4.jpg" alt="" class="w-100  pr-h">
+                            <div class="top-right">
+                                <p class="small text-danger ft">8% OFF</p>
+                            </div>
+                        </a>
+                        <center>
+                            <div class="star-ratings ">
+                                <div class="fill-ratings" style="width: 50%;">
+                                    <span>★★★★★</span>
+                                </div>
+                                <div class="empty-ratings">
+                                    <span>★★★★★</span>
+                                </div>
+                            </div>
+                        </center>
+                        <h6 class="ft">Vincent Chase</h6>
+                        <p class="small ft"> <span class="text-muted mr-2" style="text-decoration: line-through;"><i class="fas fa-rupee-sign text-muted"></i> 2604</span> <i class="fas fa-rupee-sign"></i> 2604</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-6 mb-2">
+                <div class="card">
+
+                    <div class="card-body text-center p-2">
+                        <a href="" class="nav-link m-0 p-0">
+                            <img src="images/pr1.jpg" alt="" class="w-100  pr-h">
+                            <div class="top-right">
+                                <p class="small text-danger ft">15% OFF</p>
+                            </div>
+                        </a>
+                        <center>
+                            <div class="star-ratings ">
+                                <div class="fill-ratings" style="width: 50%;">
+                                    <span>★★★★★</span>
+                                </div>
+                                <div class="empty-ratings">
+                                    <span>★★★★★</span>
+                                </div>
+                            </div>
+                        </center>
+                        <h6 class="ft">Ray Ban</h6>
+                        <p class="small ft"> <span class="text-muted mr-2" style="text-decoration: line-through;"><i class="fas fa-rupee-sign text-muted"></i> 2604</span> <i class="fas fa-rupee-sign"></i> 2604</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-lg-12">
+                <a href="" class="nav-link m-0 p-0">
+                    <img src="images/sale_banner.jpg" alt="" class="img-banner w-100">
+                </a>
+            </div>
+        </div>
+        <div class="row mt-5 mb-3">
+            <div class="col-lg-3 col-6 ">
+                <div class="card border-0">
+                    <div class="card-body text-center">
+                        <i class="fa fa-user fa-3x"></i>
+                        <h6 class="ft-lg mt-2">24X7 FREE SUPPORT</h6>
+                        <p class="ft small">Passage of Lorem Ipsum, you need to be sure embarrassing</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-6 ">
+                <div class="card border-0">
+                    <div class="card-body text-center">
+                        <i class="fa fa-rupee-sign fa-3x"></i>
+                        <h6 class="ft-lg mt-2">MONEY BACK GURANTEE</h6>
+                        <p class="ft small">Passage of Lorem Ipsum, you need to be sure embarrassing</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-6 ">
+                <div class="card border-0">
+                    <div class="card-body text-center">
+                        <i class="fab fa-product-hunt fa-3x"></i>
+                        <h6 class="ft-lg mt-2">ORIGINAL PRODUCT</h6>
+                        <p class="ft small">Passage of Lorem Ipsum, you need to be sure embarrassing</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-6 ">
+                <div class="card border-0">
+                    <div class="card-body text-center">
+                        <i class="fas fa-truck-moving fa-3x"></i>
+                        <h6 class="ft-lg mt-2">FREE SHIPPING</h6>
+                        <p class="ft small">Passage of Lorem Ipsum, you need to be sure embarrassing</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-lg-12 text-center mt-2 mb-3" style=" font-family: 'Alata', sans-serif;"><span class="text-uppercase h4 ">Special products</span></div>
+
+            <div class="col-lg-3 col-6 mb-2">
+                <div class="card">
+
+                    <div class="card-body text-center p-2">
+                        <a href="" class="nav-link m-0 p-0">
+                            <img src="images/pr2.jpg" alt="" class="w-100  pr-h">
+                            <div class="top-right">
+                                <p class="small text-danger ft">10% OFF</p>
+                            </div>
+                        </a>
+                        <center>
+                            <div class="star-ratings ">
+                                <div class="fill-ratings" style="width: 50%;">
+                                    <span>★★★★★</span>
+                                </div>
+                                <div class="empty-ratings">
+                                    <span>★★★★★</span>
+                                </div>
+                            </div>
+                        </center>
+                        <h6 class="ft">Fastrack</h6>
+                        <p class="small ft"> <span class="text-muted mr-2" style="text-decoration: line-through;"><i class="fas fa-rupee-sign text-muted"></i> 2604</span> <i class="fas fa-rupee-sign"></i> 2604</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3  col-6 mb-2">
+                <div class="card">
+
+                    <div class="card-body text-center p-2">
+                        <a href="" class="nav-link m-0 p-0">
+                            <img src="images/pr3.jpg" alt="" class="w-100  pr-h">
+                            <div class="top-right">
+                                <p class="small text-danger ft">18% OFF</p>
+                            </div>
+                        </a>
+                        <center>
+                            <div class="star-ratings ">
+                                <div class="fill-ratings" style="width: 50%;">
+                                    <span>★★★★★</span>
+                                </div>
+                                <div class="empty-ratings">
+                                    <span>★★★★★</span>
+                                </div>
+                            </div>
+                        </center>
+                        <h6 class="ft">Vogue</h6>
+                        <p class="small ft"> <span class="text-muted mr-2" style="text-decoration: line-through;"><i class="fas fa-rupee-sign text-muted"></i> 2604</span> <i class="fas fa-rupee-sign"></i> 2604</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-6 mb-2">
+                <div class="card">
+
+                    <div class="card-body text-center p-2">
+                        <a href="" class="nav-link m-0 p-0">
+                            <img src="images/pr4.jpg" alt="" class="w-100  pr-h">
+                            <div class="top-right">
+                                <p class="small text-danger ft">8% OFF</p>
+                            </div>
+                        </a>
+                        <center>
+                            <div class="star-ratings ">
+                                <div class="fill-ratings" style="width: 50%;">
+                                    <span>★★★★★</span>
+                                </div>
+                                <div class="empty-ratings">
+                                    <span>★★★★★</span>
+                                </div>
+                            </div>
+                        </center>
+                        <h6 class="ft">Vincent Chase</h6>
+                        <p class="small ft"> <span class="text-muted mr-2" style="text-decoration: line-through;"><i class="fas fa-rupee-sign text-muted"></i> 2604</span> <i class="fas fa-rupee-sign"></i> 2604</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-6 mb-2">
+                <div class="card">
+
+                    <div class="card-body text-center p-2">
+                        <a href="" class="nav-link m-0 p-0">
+                            <img src="images/pr1.jpg" alt="" class="w-100  pr-h">
+                            <div class="top-right">
+                                <p class="small text-danger ft">15% OFF</p>
+                            </div>
+                        </a>
+                        <center>
+                            <div class="star-ratings ">
+                                <div class="fill-ratings" style="width: 50%;">
+                                    <span>★★★★★</span>
+                                </div>
+                                <div class="empty-ratings">
+                                    <span>★★★★★</span>
+                                </div>
+                            </div>
+                        </center>
+                        <h6 class="ft">Ray Ban</h6>
+                        <p class="small ft"> <span class="text-muted mr-2" style="text-decoration: line-through;"><i class="fas fa-rupee-sign text-muted"></i> 2604</span> <i class="fas fa-rupee-sign"></i> 2604</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="container mt-3 mb-3">
+                <div class="owl-carousel owl-theme product">
+                    <div class="card mb-3 mt-3">
+                        <div class="card-body text-center p-2">
+                            <a href="" class="nav-link m-0 p-0">
+                                <img src="images/pr2.jpg" alt="" class="w-100  pr-h">
+                                <div class="top-right">
+                                    <p class="small text-danger ft">10% OFF</p>
+                                </div>
+                            </a>
+                            <center>
+                                <div class="star-ratings ">
+                                    <div class="fill-ratings" style="width: 50%;">
+                                        <span>★★★★★</span>
+                                    </div>
+                                    <div class="empty-ratings">
+                                        <span>★★★★★</span>
+                                    </div>
+                                </div>
+                            </center>
+                            <h6 class="ft">Fastrack</h6>
+                            <p class="small ft"> <span class="text-muted mr-2" style="text-decoration: line-through;"><i class="fas fa-rupee-sign text-muted"></i> 2604</span> <i class="fas fa-rupee-sign"></i> 2604</p>
+                        </div>
+                    </div>
+                    <div class="card mb-3 mt-3">
+                        <div class="card-body text-center p-2">
+                            <a href="" class="nav-link m-0 p-0">
+                                <img src="images/pr2.jpg" alt="" class="w-100  pr-h">
+                                <div class="top-right">
+                                    <p class="small text-danger ft">10% OFF</p>
+                                </div>
+                            </a>
+                            <center>
+                                <div class="star-ratings ">
+                                    <div class="fill-ratings" style="width: 50%;">
+                                        <span>★★★★★</span>
+                                    </div>
+                                    <div class="empty-ratings">
+                                        <span>★★★★★</span>
+                                    </div>
+                                </div>
+                            </center>
+                            <h6 class="ft">Fastrack</h6>
+                            <p class="small ft"> <span class="text-muted mr-2" style="text-decoration: line-through;"><i class="fas fa-rupee-sign text-muted"></i> 2604</span> <i class="fas fa-rupee-sign"></i> 2604</p>
+                        </div>
+                    </div>
+                    <div class="card mb-3 mt-3">
+                        <div class="card-body text-center p-2">
+                            <a href="" class="nav-link m-0 p-0">
+                                <img src="images/pr2.jpg" alt="" class="w-100  pr-h">
+                                <div class="top-right">
+                                    <p class="small text-danger ft">10% OFF</p>
+                                </div>
+                            </a>
+                            <center>
+                                <div class="star-ratings ">
+                                    <div class="fill-ratings" style="width: 50%;">
+                                        <span>★★★★★</span>
+                                    </div>
+                                    <div class="empty-ratings">
+                                        <span>★★★★★</span>
+                                    </div>
+                                </div>
+                            </center>
+                            <h6 class="ft">Fastrack</h6>
+                            <p class="small ft"> <span class="text-muted mr-2" style="text-decoration: line-through;"><i class="fas fa-rupee-sign text-muted"></i> 2604</span> <i class="fas fa-rupee-sign"></i> 2604</p>
+                        </div>
+                    </div>
+                    <div class="card mb-3 mt-3">
+                        <div class="card-body text-center p-2">
+                            <a href="" class="nav-link m-0 p-0">
+                                <img src="images/pr2.jpg" alt="" class="w-100  pr-h">
+                                <div class="top-right">
+                                    <p class="small text-danger ft">10% OFF</p>
+                                </div>
+                            </a>
+                            <center>
+                                <div class="star-ratings ">
+                                    <div class="fill-ratings" style="width: 50%;">
+                                        <span>★★★★★</span>
+                                    </div>
+                                    <div class="empty-ratings">
+                                        <span>★★★★★</span>
+                                    </div>
+                                </div>
+                            </center>
+                            <h6 class="ft">Fastrack</h6>
+                            <p class="small ft"> <span class="text-muted mr-2" style="text-decoration: line-through;"><i class="fas fa-rupee-sign text-muted"></i> 2604</span> <i class="fas fa-rupee-sign"></i> 2604</p>
+                        </div>
+                    </div>
+                    <div class="card mb-3 mt-3">
+                        <div class="card-body text-center p-2">
+                            <a href="" class="nav-link m-0 p-0">
+                                <img src="images/pr2.jpg" alt="" class="w-100  pr-h">
+                                <div class="top-right">
+                                    <p class="small text-danger ft">10% OFF</p>
+                                </div>
+                            </a>
+                            <center>
+                                <div class="star-ratings ">
+                                    <div class="fill-ratings" style="width: 50%;">
+                                        <span>★★★★★</span>
+                                    </div>
+                                    <div class="empty-ratings">
+                                        <span>★★★★★</span>
+                                    </div>
+                                </div>
+                            </center>
+                            <h6 class="ft">Fastrack</h6>
+                            <p class="small ft"> <span class="text-muted mr-2" style="text-decoration: line-through;"><i class="fas fa-rupee-sign text-muted"></i> 2604</span> <i class="fas fa-rupee-sign"></i> 2604</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <footer class="new_footer_area bg_color">
+        <div class="new_footer_top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-6">
+                        <div class="f_widget company_widget wow fadeInLeft" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
+                            <a href="" class="navbar-brand text-secondary" style="font-family: 'Brush Script MT', cursive;"><img src="images/new_logo.png" class="img-logo"> Lenseyewear</a>
+                            <p class="f-title  t_color ft-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta quisquam totam nemo eveniet illo optio libero saepe culpa quos</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-6">
+                        <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
+                            <h4 class="f-title h4_s  t_color ft">Information</h4>
+                            <ul class="list-unstyled f_list ft">
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Delivery Information</a></li>
+                                <li><a href="#">Terms &amp; Conditions</a></li>
+                                <li><a href="#">Site Map</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-6">
+                        <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInLeft;">
+                            <h4 class="f-title h4_s  t_color ft">Extras</h4>
+                            <ul class="list-unstyled f_list ft">
+                                <li><a href="">Brands</a></li>
+                                <li><a href="">Gift Certificates</a></li>
+                                <li><a href="">Affiliate</a></li>
+                                <li><a href="">Specials</a></li>
+                                <li><a href="">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-6">
+                        <div class="f_widget social-widget pl_70 wow fadeInLeft" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInLeft;">
+                            <h4 class="f-title h4_s  t_color ft">Store</h4>
+                            <ul class="list-unstyled f_list ft">
+                                <li style="color:#858da8;">
+                                    <i class="fa fa-map-marker"></i>
+                                    <span>Some where Purnea,Bihar</span>
+                                </li>
+                                <li style="color:#858da8;">
+                                    <i class="fa fa-phone"></i>
+                                    <span>000-000-0000</span>
+                                </li>
+                                <li style="color:#858da8;">
+                                    <i class="fa fa-fax"></i>
+                                    <span>123456</span>
+                                </li>
+                                <li style="color:#858da8;">
+                                    <i class="fa fa-envelope"></i>
+                                    <span>jaybharti362@gmail.com </span>
+                                </li>
+                            </ul>
+                            <div class="f_social_icon ">
+                                <a href="#" class="fab fa-facebook"></a>
+                                <a href="#" class="fab fa-twitter"></a>
+                                <a href="https://www.linkedin.com/in/jay-kumar-bharti-33b9a8158/" class="fab fa-linkedin"></a>
+                                <a href="https://github.com/jayyadav362/" class="fab fa-github"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-6">
+                        <p class="mb-0 f_400 ft">© Lenseyewear 2022 All rights reserved.</p>
+                    </div>
+                    <div class="col-lg-6 col-6 text-right">
+                        <p class="ft">Made with <i class="fas fa-heart text-danger"></i> by <span>Jay Kumar Bharti</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script type="text/javascript">
+function googleTranslateFunction(){
+new google.translate.TranslateElement({pageLanguage:'en', layout:google.translate.TranslateElement.InlineLayout.SIMPLE},'google_translate_element');
+} </script>
+ 
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateFunction"></script>
+    <script>
+        // product carousel//
+        $(document).ready(function() {
+            $('.product').owlCarousel({
+                loop: true,
+                responsiveClass: true,
+                margin: 20,
+                autoplay: true,
+                autoplayTimeout: 2000,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: true
+                    },
+                    600: {
+                        items: 2,
+                        nav: true
+                    },
+                    1000: {
+                        items: 4,
+                        nav: true,
+                        loop: true
+                    }
+                }
+            })
+        });
+        // end product carousel//
+        //star rating//
+        $(document).ready(function() {
+            var star_rating_width = $('.fill-ratings span').width();
+            $('.star-ratings').width(star_rating_width);
+        });
+        //popover//
+        $("[data-toggle=popover]").popover({
+            html: true,
+            content: function() {
+                return $('#popover-content').html();
+            }
+        });
+
+        // navbar menu //
+        $(document).ready(function() {
+
+            var val = 1;
+
+            $(".click").click(function() {
+
+                if (val == 1) {
+
+                    $("header nav").animate({
+                        'left': '0'
+                    });
+                    val = 0;
+                } else {
+                    val = 1;
+                    $("header nav").animate({
+                        'left': '-100%'
+                    });
+                }
+
+                return false;
+            });
+
+            // submenu
+            $('.sub-menu').click(function() {
+                $(this).children('.children').slideToggle();
+            })
+
+        });
+        /////////////////
+    </script>
+</body></html>
